@@ -1,0 +1,16 @@
+.home {
+  width: 709px;
+  padding: 127px;
+  float: left;
+  display: block;
+  margin: 0 0 0 150px;
+  position:absolute;
+}
+
+.home h2{
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+}
+
