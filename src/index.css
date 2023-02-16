@@ -4,30 +4,24 @@
 * {
   margin: 0;
   font-family: 'Space Grotesk';
-  background: black;
   color:#fff;
-
+  background: black;
+}
   
-}
-.navbar h1 {
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: -0.444444px;
- 
-}
-.navbar {
-  padding: 20px;
-  max-width: 885px;
-  margin: 0 auto;
+.overall{
+  width: 3000px;
   display: flex;
-  border-bottom: 1px dotted #333;
-  align-items: center;
+  flex-direction: row;
 }
-.navbar .link {
-  margin-left: auto;
+
+.first-sub-div{
+  margin: 30px 250px 40px 0px;
 }
-.navbar a {
-  text-decoration: none;
-  margin-left: 10px;
-  padding: 6px;
+
+.second-sub-div{
+  margin: 30px 250px 40px 0px;
+}
+
+.third-sub-div{
+  margin: 30px 100px 40px 0px;
 }
