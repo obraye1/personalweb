@@ -1,31 +1,37 @@
+
 .home {
-  width: 709px;
+  width: 750px;
   padding: 127px;
-  float: left;
   margin: 0 0 0 150px;
-  position:absolute;
+  position: absolute;
+  padding-bottom: 20px;
+  align-items: center;
 }
 
-.home h2{
+.home h2 {
   font-size: 88px;
   font-weight: 700;
   line-height: 88px;
   letter-spacing: -2.5px;
 }
 
-.bryan{
+.bryan-txt {
   position: absolute;
   left: 260px;
   top: 215px;
-  border-bottom: 5px solid green;
+  border-bottom: 6px solid #845ec2;
 }
 
-.coin p{
+.p-coin {
   margin: 20px 0px 0px 0px;
-  color: #D9D9D9;
+  color: #d9d9d9;
+  height: 84px;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 28px;
 }
 
-.rodrygo{
+.profile-img {
   background-color: black;
   width: 350px;
   height: 500px;
@@ -35,30 +41,20 @@
   opacity: 0.5;
 }
 
-.btn{
-  color:white;
-  border-bottom: 2px solid green;
-  padding:0px 0px 10px 0px;
-  margin:15px 0px 0px 0px;
+.btn {
+  color: white;
+  border: none;
+  border-bottom: 2px solid #845ec2;
+  font-size: 13px;
+  cursor: pointer;
 }
 
-.btn:hover{
-  color: darkgreen;
+.btn:hover {
+  color: #845ec2;
 }
 
-.hr-home{
+.hr-home {
   width: 1010px;
   margin: 80px 0px 0px 1px;
-}
-
-.home-sub-div{
-  display: flex;
-  flex-direction: column;
-  
-  }
-
-
-
-.home-sub-divv h1{
-  margin: 0px 0px 10px 0px;
+  margin-bottom: 90px;
 }

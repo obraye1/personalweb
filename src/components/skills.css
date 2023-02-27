@@ -1,0 +1,13 @@
+main {
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 50px;
+}
+main .mainDiv h4 {
+  font-size: 30px;
+}
+main .mainDiv p {
+  font-size: 10px;
+}

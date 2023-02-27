@@ -7,21 +7,3 @@
   color:#fff;
   background: black;
 }
-  
-.overall{
-  width: 3000px;
-  display: flex;
-  flex-direction: row;
-}
-
-.first-sub-div{
-  margin: 30px 250px 40px 0px;
-}
-
-.second-sub-div{
-  margin: 30px 250px 40px 0px;
-}
-
-.third-sub-div{
-  margin: 30px 100px 40px 0px;
-}
