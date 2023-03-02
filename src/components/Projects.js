@@ -5,6 +5,7 @@ import img3 from '../assets/img3.jpg';
 import img4 from '../assets/img4.jpg';
 import img5 from '../assets/img5.jpg';
 import img6 from '../assets/img6.jpg';
+import Contact from "./Contact";
 
 const Projects = () => {
   return (
@@ -159,8 +160,8 @@ const Projects = () => {
               {/* image div */}
               <picture className="proj-img">
                 <div className="img-link">
-                  <button className="btn">VIEW PRODUCT</button>
-                  <button className="btn">VIEW CODE</button>
+                  <button className="btn de">VIEW PRODUCT</button>
+                  <button className="btn de">VIEW CODE</button>
                 </div>
                 <img
                   src={img6}
@@ -183,6 +184,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      
     </main>
   );
 };

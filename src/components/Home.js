@@ -1,40 +1,42 @@
 import './home.css';
 import picture from '../assets/download.jpg';
 import Skills from './Skills';
-import Projects from "./Projects";
-
-
+import Projects from './Projects';
+import Contact from './Contact';
 
 const Home = () => {
   return (
     <main className="mainPage">
-    <div className="home">
-      <div className="coin">
-        <h2>
-          Nice to meet you! I'm
-          <h2 className="bryan-txt">Bryan Temple</h2>
-        </h2>
-        <p className="p-coin">
-          Based in Lagos,Ng. I'm a FrontEnd Developer passsionate about building
-          accessible web apps that users love
-        </p>
-        <button type="button" className="btn">
-        Contact Me
-        </button>
+      <div className="home">
+        <div className="coin">
+          <h2>
+            Nice to meet you! I'm
+            <span className="bryan-txt">Bryan Temple</span>
+          </h2>
+          <p className="p-coin">
+            Based in Lagos,Ng. I'm a FrontEnd Developer passsionate about
+            building accessible web apps that users love
+          </p>
+          <button type="button" className="btn">
+            Contact Me
+          </button>
+        </div>
+        <div>
+          <img
+            src={picture}
+            className="profile-img"
+            alt="Bryan in a gray background"
+          />
+        </div>
+        <hr className="hr-home" />
+        <div>
+          <Skills />
+          <Projects />
+        </div>
       </div>
       <div>
-        <img
-          src={picture}
-          className="profile-img"
-          alt="Bryan in a gray background"
-        />
+        <Contact />
       </div>
-      <hr className="hr-home" />
-      <div className="skills-div">
-        <Skills /> 
-        <Projects />
-      </div>
-    </div>
     </main>
   );
 };

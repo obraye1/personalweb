@@ -1,9 +1,8 @@
-
 .home {
   width: 750px;
   padding: 127px;
   margin: 0 0 0 150px;
-  position: absolute;
+  position: relative;
   padding-bottom: 20px;
   align-items: center;
 }
