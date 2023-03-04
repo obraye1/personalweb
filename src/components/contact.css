@@ -1,4 +1,49 @@
 .contact {
-  position:absolute;
-  top: 100%;
+  position: absolute;
+  top: 3000px;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.contact h4{
+  margin: 0px 0px 0px 400px;
+  font-weight: bolder;
+  font-size: 30px;
+
+}
+
+label{
+  margin: 0px 0px 10px 10px;
+  font-weight: bolder;
+  font-size: 21px;
+
+}
+
+.contact p{
+  margin: 30px 0px 30px 59px;
+}
+
+.contact input{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 25px;
+  margin: 10px 0px 10px 0px;
+}
+
+textarea{
+  width: 1000px;
+  height:100px;
+  margin: 30px 0px 10px 0px;
+}
+
+.contact button{
+  height: 40px;
+  width: 200px;
+  background-color: lightblue;
+  color: black;
+  border-radius: 15px;
+  margin: 15px 0px 10px 380px;
 }
