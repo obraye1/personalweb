@@ -1,4 +1,4 @@
-import './contact.css'
+import "./contact.css";
 const Contact = () => {
   return (
     <main>
@@ -9,9 +9,20 @@ const Contact = () => {
           fill in the form, and I’ll get back to you as soon as possible.
         </p>
         <form>
+          <label>Name</label>
           <input type="text" name="name" id="name" />
+
+          <label>Email</label>
           <input type="email" name="email" id="email" />
-          <input type="text" name="message" id="message" />
+          
+          <textarea
+            className="form-control"
+            id=""
+            cols="14"
+            rows="4"
+            placeholder="Your message"
+            name="message"
+          ></textarea>
           <button>Send Message</button>
         </form>
       </div>
