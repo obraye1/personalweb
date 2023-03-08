@@ -35,7 +35,8 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <Contact/>
+
+        <Contact />
       </div>
     </main>
   );

@@ -1,49 +1,92 @@
+.cont-con .contact {
+  background: #242424;
+}
 .contact {
-  position: absolute;
+  display: grid;
+  grid-template-columns: 450px 450px;
+  grid-template-rows: 500px 500px;
+  gap: 100px;
   top: 3000px;
-  right: 100px;
+  position: absolute;
+  width: 100%;
+  height: 675px;
+  justify-content: center;
+  align-items: center;
+}
+.con-para {
+  margin: 0 0 0 65px;
+}
+.con-para h2 {
+  font-size: 68px;
+  line-height: 88px;
+  font-weight: 700;
+  margin: 0 0 29px 0;
+}
+.con-para p {
+  margin: 0 0 0 6px;
+  font-weight: 500;
+  color: #d9d9d9;
+}
+.form form {
   display: flex;
   flex-direction: column;
-  width: 1000px;
+  width: auto;
+}
+form input {
+  border: none;
+  border-bottom: 2px solid #845ec2;
+  margin-bottom: 40px;
+  font-size: 13px;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+}
+form input:invalid {
+  border-bottom: 2px solid red;
 }
 
-.contact h4{
-  margin: 0px 0px 0px 400px;
-  font-weight: bolder;
-  font-size: 30px;
 
+textarea {
+  border: none;
+  border-bottom: 2px solid #845ec2;
+  margin-bottom: 40px;
+  font-size: 13px;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
 }
 
-label{
+/* 
+label {
   margin: 0px 0px 10px 10px;
   font-weight: bolder;
   font-size: 21px;
-
 }
 
-.contact p{
+.contact p {
   margin: 30px 0px 30px 59px;
 }
 
-.contact input{
+.contact input {
   display: flex;
   flex-direction: column;
   width: 1000px;
   height: 25px;
   margin: 10px 0px 10px 0px;
+  border: none;
+  border-bottom: 2px solid #845ec2;
+  font-size: 13px;
+  cursor: pointer;
+}
+input:active {
+  border: none;
 }
 
-textarea{
+textarea {
   width: 1000px;
-  height:100px;
+  height: 100px;
   margin: 30px 0px 10px 0px;
-}
-
-.contact button{
-  height: 40px;
-  width: 200px;
-  background-color: lightblue;
-  color: black;
-  border-radius: 15px;
-  margin: 15px 0px 10px 380px;
-}
+  background-color: #242424;
+  font: white;
+  border: none;
+} */
