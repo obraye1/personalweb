@@ -1,3 +1,4 @@
+
 import './contact.css';
 
 const Contact = () => {
@@ -15,6 +16,7 @@ const Contact = () => {
           <form>
             <input type="text" name="name" id="name" placeholder="NAME" />
             <input type="email" name="email" id="email" placeholder="EMAIL" />
+
             <textarea
               className="form-control"
               id=""
@@ -24,7 +26,7 @@ const Contact = () => {
               name="message"
             ></textarea>
           </form>
-          <button className="btn">Send Message</button>
+          <button className="btn btn-con">Send Message</button>
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@ import picture from '../assets/download.jpg';
 import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
+import Footer from './Footer';
 
 const Home = () => {
   return (
@@ -35,8 +36,8 @@ const Home = () => {
         </div>
       </div>
       <div>
-
         <Contact />
+        <Footer />
       </div>
     </main>
   );
