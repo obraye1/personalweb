@@ -1,6 +1,5 @@
-body{
+body {
   background: #121212;
-
 }
 .home {
   width: 750px;
@@ -9,7 +8,6 @@ body{
   margin: 0 0 0 150px;
   padding-bottom: 20px;
   align-items: center;
-  
 }
 
 .home h2 {
@@ -52,8 +50,6 @@ body{
   cursor: pointer;
   padding: 10px;
   background: transparent;
-  
- 
 }
 
 .btn:hover {
@@ -65,3 +61,6 @@ body{
   margin: 80px 0px 0px 1px;
   margin-bottom: 90px;
 }
+
+
+  

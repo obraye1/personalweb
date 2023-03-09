@@ -1,5 +1,5 @@
 import './home.css';
-import picture from '../assets/download.jpg';
+import picture from '../assets/download.JPG';
 import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
@@ -16,7 +16,7 @@ const Home = () => {
           </h2>
           <p className="p-coin">
             Based in Lagos,Ng. I'm a FrontEnd Developer passsionate about
-            building accessible web apps that users love
+            building accessible web apps that users love.
           </p>
           <button type="button" className="btn">
             Contact Me
